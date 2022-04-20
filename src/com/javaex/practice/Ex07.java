@@ -22,9 +22,9 @@ public class Ex07 {
 		System.out.print("금액: ");
 		for(int i=0; i<wonArray.length; i++) {
 		wonArray[i] = sc.nextInt();
-		if(wonArray[0]<=50000) {
-			System.out.println("50000원:"+wonArray[0]);
-		}
+		
+		
+		
 		
 		}
 		sc.close();
