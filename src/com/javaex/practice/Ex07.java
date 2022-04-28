@@ -18,14 +18,13 @@ public class Ex07 {
 		wonArray[7] = 10;
 		wonArray[8] = 5;
 		wonArray[9] = 1;
-
+		
+		int sum;
 		System.out.print("금액: ");
 		for(int i=0; i<wonArray.length; i++) {
-		wonArray[i] = sc.nextInt();
-		
-		
-		
-		
+		int money = sc.nextInt();
+			sum=money%wonArray.length;
+		System.out.println(wonArray.length+"금액 "+sum+"개");
 		}
 		sc.close();
 	}
